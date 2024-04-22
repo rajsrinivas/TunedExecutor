@@ -7,8 +7,9 @@ Typically, web applications have multiple thread pools and each has different us
 # Description
 Project to monitor active traffic and thread usage to auto tune Java executor threadpool parameters. 
 This is useful to prioritize different thread pools within a JVM continuously monitoring traffice patterns.. 
-Ideally, this should take away the burden of knowing traffic patterns for each thread pool takes away guesstimating parameters for each thread pool. It is suboptimal for a given point in time.
-#Overview
+Ideally, this should take away the burden of knowing traffic patterns for each thread pool & need to guesstimating parameters for each thread pool. It is suboptimal for a given point in time.
+
+# Overview
 Builds on Java Executor framework
     
 Parameters are tuned based on Little's law(https://en.wikipedia.org/wiki/Little%27s_law). Premised on statistics of traffic patterns, arrival rate, process time.
