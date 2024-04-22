@@ -83,7 +83,7 @@ Running simulatation on untuned and auto tuned thread pools
     Simulating Request: Batches of (10,50,250,80,500,0,50,100,350) by 3 parallel threads generate requests for 2 seconds.
 
          
-        Running untuned thread pool
+        Running untuned thread pool(Scroll right to see thread counts)
             Legend: () --> Long term rates
             #   Arrival Rate        Process Rate        Process Time             Wait Time                Core      Current   Queue     Active    State
             1    30.00(30.00)        30.00(30.00)        25.40(74.32)             0.50(0.67)               50        50        17        50        SYSTEM_STEADY       
@@ -115,10 +115,11 @@ Running simulatation on untuned and auto tuned thread pools
             Count: 8340.0 Total: 134562404
             Net process time:
             Count: 8340.0 Total: 2551689
-            Scroll right to see thread counts
+            
 
 Replaying same traffic pattern on auto tuned thread pool
 Legend: () --> Long term rates
+         Scroll right to see thread counts
          
          #   Arrival Rate        Process Rate        Process Time             Wait Time                Core      Current   Queue     Active    State     
         1    30.00(30.00)        30.00(30.00)        28.60(26.05)             0.00(0.17)               50        50        15        50        SYSTEM_STEADY       
