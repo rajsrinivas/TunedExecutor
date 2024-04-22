@@ -115,6 +115,7 @@ Running simulatation on untuned and auto tuned thread pools
             Count: 8340.0 Total: 134562404
             Net process time:
             Count: 8340.0 Total: 2551689
+            Scroll right to see thread counts
 
 Replaying same traffic pattern on auto tuned thread pool
 Legend: () --> Long term rates
@@ -149,6 +150,7 @@ Legend: () --> Long term rates
         Count: 8340.0 Total: 73735615
         Net process time:
         Count: 8340.0 Total: 10456065
+        Scroll right to see thread counts
 
 **Observation :** 
         
